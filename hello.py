@@ -149,8 +149,8 @@ if run_query:
     with st.expander("See explanation"):
         if score_course > score_course_education:
             st.write('Because they took ' + top_course)
-            st.write(top_course_desc)
             st.write('What is ' +top_course +'?')
+            st.write(top_course_desc)
         else:
             st.write('Because they majored in ' + undergrad+ '  in undergrad')
         
@@ -183,8 +183,9 @@ if run_query:
     with st.expander("See explanation"):
         if score_course_2 > score_course_education_2:
             st.write('Because they took ' + top_course_2)
-            st.write(top_course_desc_2)
             st.write('What is ' +top_course_2 +'?')
+            st.write(top_course_desc_2)
+        
         else:
             st.write('Because they majored in ' + undergrad_2+ '  in undergrad')
         
